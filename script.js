@@ -61,8 +61,10 @@ function calculateResult() {
   secondNumber = parseFloat(display.textContent.split(" " + operator + " ")[1]);
 
   const result = operate(operator, parseFloat(firstNumber), secondNumber);
-  display.textContent += " = " + result.toString();
-  resetVariables();
+  display.textContent = result.toString();
+
+  // Store the result in firstNumber for the next operation
+  firstNumber = result.toString();
 }
 
 function operate(operator, num1, num2) {
