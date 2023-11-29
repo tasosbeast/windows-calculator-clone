@@ -6,6 +6,16 @@ let numberButtons = document.querySelectorAll(".calc-numbers");
 let operatorButtons = document.querySelectorAll(".calc-operators");
 let equalsButton = document.querySelector(".equals");
 let clearButton = document.querySelector(".clear");
+let clearEntryButton = document.querySelector(".clear-entry");
+
+// Function to clear the most recent entry
+function clearEntry() {
+  // Remove the last character from the display value
+  displayValue.textContent = displayValue.textContent.slice(0, -1);
+}
+
+// Add an event listener to the clear entry button
+clearEntryButton.addEventListener("click", clearEntry);
 
 // Function to clear the display
 function clearDisplay() {
