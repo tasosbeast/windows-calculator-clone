@@ -10,8 +10,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Open Sans", sans-serif;
-  background-image: url('/begin/1686472481_img19.jpg');
-    background-size: cover;
+  background-image: url("../1686472481_img19.jpg");
+  background-size: cover;
 }
 .wrapper {
   width: 400px;
@@ -22,65 +22,64 @@ body {
   color: #fff;
   border-radius: 10px;
   padding: 5px;
-  box-shadow: 3px 10px 50px 1px rgba(0,0,0,0.75);
+  box-shadow: 3px 10px 50px 1px rgba(0, 0, 0, 0.75);
 }
 
 .calc-button-row {
-    margin-bottom: 0.5%;
+  margin-bottom: 0.5%;
   display: flex;
   flex-flow: row nowrap;
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .screen {
   text-align: right;
   padding: 40px 10px;
-    font-size: 50px;
-    font-weight: 700;
+  font-size: 50px;
+  font-weight: 700;
 }
 
-.calc-button{
-    background-color: rgba(59, 59, 59, 0.881);
-    color: #fff;
-    border: none;
-    font-size: 20px;
-    height: 50px;
-    flex-basis: 24.5%;
-    border-radius: 5px;
+.calc-button {
+  background-color: rgba(59, 59, 59, 0.881);
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  height: 50px;
+  flex-basis: 24.5%;
+  border-radius: 5px;
 }
 
-.calc-button:hover{
-    background-color: rgba(50, 50, 50, 0.8);
+.calc-button:hover {
+  background-color: rgba(50, 50, 50, 0.8);
 }
 
-.calc-button:active{
-    background-color: rgba(41, 41, 41, 0.881);
+.calc-button:active {
+  background-color: rgba(41, 41, 41, 0.881);
 }
 
-.calc-button--darker{
-    background-color: rgba(50, 50, 50, 0.8);
-    color: #fff;
+.calc-button--darker {
+  background-color: rgba(50, 50, 50, 0.8);
+  color: #fff;
 }
 
-.calc-button--darker:hover{
-    background-color: rgba(59, 59, 59, 0.881);
+.calc-button--darker:hover {
+  background-color: rgba(59, 59, 59, 0.881);
 }
 
-.calc-button--darker:active{
-    background-color: rgba(50, 50, 50, 0.8);
+.calc-button--darker:active {
+  background-color: rgba(50, 50, 50, 0.8);
 }
 
-
-.calc-button--primary{
-    background-color: #f38064;
-    color: #fff;
+.calc-button--primary {
+  background-color: #f38064;
+  color: #fff;
 }
 
-.calc-button--primary:hover{
-    background-color: #f26d4a;
+.calc-button--primary:hover {
+  background-color: #f26d4a;
 }
 
-.calc-button--primary:active{
-    background-color: #e2603f;
-    filter: opacity(0.8);
+.calc-button--primary:active {
+  background-color: #e2603f;
+  filter: opacity(0.8);
 }
