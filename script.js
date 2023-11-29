@@ -6,7 +6,10 @@ console.log(numbersEl);
 let screenEl = document.querySelector(".screen");
 
 numbersEl.forEach((number) => {
-  number.addEventListener("click");
+  number.addEventListener(
+    "click",
+    () => (screenEl.textContent += number.textContent)
+  );
 });
 
 function add(a, b) {
